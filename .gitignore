@@ -1,0 +1,59 @@
+#
+# ---- Build folders
+#
+**/target/
+**/build/
+**/wildfly*
+**/junk*
+**/trash*
+**/docs/*
+.classpath
+.project
+.gradle
+gradle-app.setting
+gradle.properties
+
+#
+# ---- IDE specified files
+#
+# -- Eclipse
+#
+/RemoteSystemsTempFiles/
+**/.project
+**/.classpath
+**/.factorypath
+*.settings
+*.setting
+workspaces
+pyenv
+
+
+#
+# -- IDEA
+#
+**/.idea
+/.idea/workspace.xml
+/.idea/vcs.xml
+/.idea/libraries
+*.iml
+*.iws
+*.ipr
+
+#
+# ---- OS generated files AND Temporary files
+#
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+*~
+*.swp
+*.tmp
+*.bak
+*.lock
+# Do not know what is it. NodeJS?
+**/.tern-project
+_*
